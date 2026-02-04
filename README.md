@@ -89,20 +89,12 @@ A web interface is created using Streamlit where users can:
 - Receive TOPSIS result on screen and via email
 
 
-## Run Locally 
-
-```bash
-streamlit run streamlit_app.py
-```
-
-## Open in browser: 
-
-```bash
-http://localhost:8501
-```
-
 ## Live Web App
 The web application is deployed and accessible online via Streamlit Cloud.
+
+```bash
+https://topsis-prigya-102313061-7nsp9spyk8jjwsjdyroz4y.streamlit.app/
+```
 
 ---
 
