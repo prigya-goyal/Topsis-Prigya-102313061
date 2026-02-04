@@ -1,10 +1,17 @@
-# TOPSIS Python Package
+# TOPSIS 
 
-This project implements the **TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)** method as a command line tool.
+This project implements the **TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)** method in three forms:
+
+1. Command Line Tool
+2. Python Package (PyPI)
+3. Web Application using Streamlit
 
 TOPSIS is a multi-criteria decision making technique used to rank alternatives based on their distance from an ideal best and ideal worst solution.
 
 ---
+
+## Part-1: Python Package
+The TOPSIS algorithm is packaged and published on PyPI.
 
 ## Installation
 
@@ -14,6 +21,7 @@ pip install Topsis-Prigya-102313061
 
 ---
 
+## Part-2: Command Line Usage
 ## Input File Format
 
 The input must be a CSV file with:
@@ -73,12 +81,49 @@ The output CSV file will contain two additional columns:
 
 ---
 
+## Part-3: Web Application (Streamlit)
+A web interface is created using Streamlit where users can:
+
+- Upload CSV file
+- Enter weights and impacts
+- Receive TOPSIS result on screen and via email
+
+
+
 ### Notes
 
 - The first column must contain the names of alternatives.
 - All remaining columns must contain numeric values only.
 - Number of weights and impacts must match the number of criteria columns.
 
+## Run Locally 
+
+```bash
+streamlit run streamlit_app.py
+```
+
+## Open in browser: 
+
+```bash
+http://localhost:8501
+```
+
+## Live Web App
+The web application is deployed and accessible online via Streamlit Cloud.
+
+---
+
+## Project Structure
+
+- Part-1_Python_Package/
+- Part-2_Command_Line/
+- Part-3_Web_App/
+- streamlit_app.py
+- requirements.txt
+- README.md
+- LICENSE
+- User_Manual.pdf
+  
 ---
 
 ## Requirements
