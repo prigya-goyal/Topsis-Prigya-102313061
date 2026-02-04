@@ -1,2 +1,0 @@
-[console_scripts]
-topsis = topsis_prigya_102313061.topsis:main
