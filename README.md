@@ -89,13 +89,6 @@ A web interface is created using Streamlit where users can:
 - Receive TOPSIS result on screen and via email
 
 
-
-### Notes
-
-- The first column must contain the names of alternatives.
-- All remaining columns must contain numeric values only.
-- Number of weights and impacts must match the number of criteria columns.
-
 ## Run Locally 
 
 ```bash
@@ -124,6 +117,14 @@ The web application is deployed and accessible online via Streamlit Cloud.
 - LICENSE
 - User_Manual.pdf
   
+---
+
+### Notes
+
+- The first column must contain the names of alternatives.
+- All remaining columns must contain numeric values only.
+- Number of weights and impacts must match the number of criteria columns.
+
 ---
 
 ## Requirements
